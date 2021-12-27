@@ -39,7 +39,7 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20210110162100-a92cc753f88e // indirect
 	github.com/emicklei/dot v0.15.0
 	github.com/emicklei/go-restful v2.15.0+incompatible // indirect
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/fatih/color v1.10.0
 	github.com/firecracker-microvm/firecracker-go-sdk v0.22.0
 	github.com/fsnotify/fsnotify v1.4.9
@@ -90,21 +90,21 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	golang.org/x/net v0.0.0-20211209124913-491a49abca63
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
+	golang.org/x/sys v0.0.0-20210831042530-f4d43177bf5e
+	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
+	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
 	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/freddierice/go-losetup.v1 v1.0.0-20170407175016-fc9adea44124
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.1.2 // indirect
-	k8s.io/api v0.21.0
-	k8s.io/apimachinery v0.21.0
+	k8s.io/api v0.23.1
+	k8s.io/apimachinery v0.23.1
 	k8s.io/apiserver v0.21.0 // indirect
-	k8s.io/client-go v0.21.0
+	k8s.io/client-go v0.23.1
 	k8s.io/cri-api v0.21.0
 	k8s.io/kubectl v0.21.0
 	k8s.io/kubelet v0.21.0
