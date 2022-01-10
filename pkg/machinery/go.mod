@@ -13,7 +13,7 @@ require (
 	github.com/containerd/go-cni v1.0.2
 	github.com/cosi-project/runtime v0.0.0-20210409233936-10d6103c19ab
 	github.com/dustin/go-humanize v1.0.0
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v5.6.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/golang/protobuf v1.5.2
 	github.com/hashicorp/go-multierror v1.1.1
