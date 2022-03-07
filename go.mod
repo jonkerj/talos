@@ -69,7 +69,7 @@ require (
 	github.com/rs/xid v1.3.0
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/smira/go-xz v0.0.0-20201019130106-9921ed7a9935
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	github.com/talos-systems/crypto v0.2.1-0.20210427105118-4f80b976b640
 	github.com/talos-systems/go-blockdevice v0.2.1-0.20210407132431-1d830a25f64f
@@ -86,21 +86,20 @@ require (
 	github.com/vmware-tanzu/sonobuoy v0.50.0
 	github.com/vmware/govmomi v0.25.0
 	github.com/vmware/vmw-guestinfo v0.0.0-20200218095840-687661b8bd8e
-	go.etcd.io/etcd/api/v3 v3.5.0-alpha.0
+	go.etcd.io/etcd/api/v3 v3.5.0
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0 // indirect
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
+	golang.org/x/sys v0.0.0-20210603125802-9665404d3644
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/grpc v1.41.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/freddierice/go-losetup.v1 v1.0.0-20170407175016-fc9adea44124
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	honnef.co/go/tools v0.1.2 // indirect
 	k8s.io/api v0.21.0
 	k8s.io/apimachinery v0.21.0
 	k8s.io/apiserver v0.21.0 // indirect
