@@ -461,7 +461,7 @@ ARG TARGETARCH
 RUN --mount=type=cache,target=/.cache GOOS=linux GOARCH=${TARGETARCH} go build ${GO_BUILDFLAGS} -ldflags "${GO_LDFLAGS}" -o /installer
 RUN chmod +x /installer
 
-FROM alpine:3.13.5 AS unicode-pf2
+FROM alpine:3.15.1 AS unicode-pf2
 RUN apk add --no-cache --update grub
 
 FROM scratch AS install-artifacts
@@ -478,7 +478,7 @@ COPY --from=initramfs-archive-arm64 /initramfs.xz /usr/install/arm64/initramfs.x
 COPY --from=pkg-u-boot-arm64 / /usr/install/arm64/u-boot
 COPY --from=pkg-raspberrypi-firmware-arm64 / /usr/install/arm64/raspberrypi-firmware
 
-FROM alpine:3.13.5 AS installer
+FROM alpine:3.15.1 AS installer
 RUN apk add --no-cache --update \
     bash \
     ca-certificates \
