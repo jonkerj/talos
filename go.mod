@@ -39,7 +39,7 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20210110162100-a92cc753f88e // indirect
 	github.com/emicklei/dot v0.15.0
 	github.com/emicklei/go-restful v2.15.0+incompatible // indirect
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/fatih/color v1.10.0
 	github.com/firecracker-microvm/firecracker-go-sdk v0.22.0
 	github.com/fsnotify/fsnotify v1.4.9
@@ -48,7 +48,7 @@ require (
 	github.com/gizak/termui/v3 v3.1.0
 	github.com/gogo/googleapis v1.4.0 // indirect
 	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/google/uuid v1.2.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/go-getter v1.5.3
@@ -90,21 +90,21 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/grpc v1.40.0
+	google.golang.org/protobuf v1.28.0
 	gopkg.in/freddierice/go-losetup.v1 v1.0.0-20170407175016-fc9adea44124
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.1.2 // indirect
-	k8s.io/api v0.21.0
-	k8s.io/apimachinery v0.21.0
+	k8s.io/api v0.25.0
+	k8s.io/apimachinery v0.25.0
 	k8s.io/apiserver v0.21.0 // indirect
-	k8s.io/client-go v0.21.0
+	k8s.io/client-go v0.25.0
 	k8s.io/cri-api v0.21.0
 	k8s.io/kubectl v0.21.0
 	k8s.io/kubelet v0.21.0
