@@ -48,7 +48,7 @@ require (
 	github.com/gizak/termui/v3 v3.1.0
 	github.com/gogo/googleapis v1.4.0 // indirect
 	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/google/uuid v1.2.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/go-getter v1.5.3
@@ -90,14 +90,14 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/grpc v1.51.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/freddierice/go-losetup.v1 v1.0.0-20170407175016-fc9adea44124
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.1.2 // indirect
