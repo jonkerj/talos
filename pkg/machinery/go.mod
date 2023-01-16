@@ -24,11 +24,9 @@ require (
 	github.com/talos-systems/crypto v0.2.1-0.20210427105118-4f80b976b640
 	github.com/talos-systems/go-blockdevice v0.2.1-0.20210407132431-1d830a25f64f
 	github.com/talos-systems/net v0.2.1-0.20210212213224-05190541b0fa
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
-	golang.org/x/text v0.3.5 // indirect
-	google.golang.org/genproto v0.0.0-20210302174412-5ede27ff9881
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6
+	google.golang.org/grpc v1.52.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
