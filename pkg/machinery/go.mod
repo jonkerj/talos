@@ -12,7 +12,7 @@ require (
 	github.com/containerd/containerd v1.4.4
 	github.com/containerd/go-cni v1.0.2
 	github.com/cosi-project/runtime v0.0.0-20210409233936-10d6103c19ab
-	github.com/dustin/go-humanize v1.0.0
+	github.com/dustin/go-humanize v1.0.1
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/golang/protobuf v1.5.2
